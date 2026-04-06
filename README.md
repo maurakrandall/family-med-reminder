@@ -49,6 +49,27 @@ That's the entire setup.
 
 ---
 
+## How data works — important to understand before setup
+
+This app uses your device's local storage, which means **data lives on the device it was entered on and does not sync across devices.** If your sister sets up medications on her phone and your mom opens the same URL on her phone, mom's phone will be empty.
+
+This is a feature, not a bug — no data ever leaves the device, which means no privacy risk. But it does affect how you set things up.
+
+**Three ways to handle this:**
+
+**Option 1 — Caregiver manages everything on one device (simplest)**
+The caregiver sets up and tracks medications on their own phone. Parents don't use the app directly. The caregiver checks in each morning and tracks what's been taken. Best when the caregiver is closely involved in daily care.
+
+**Option 2 — Set up each device separately**
+The caregiver sits down with each parent's phone and enters their medications directly on that device. Each parent's phone then shows their own daily view. Best when parents want to check off their own medications independently. Downside: if a medication changes, the caregiver needs to update it on each device.
+
+**Option 3 — One shared device**
+Set up the app once on a shared tablet or kitchen device that both parents use. Best when there's a natural "household screen" already in use.
+
+**First-time setup tip:** the app opens with demo medications already loaded. Archive those first (Medications tab → Archive on each one) before adding real medications.
+
+---
+
 ## Technical details
 
 For anyone who wants to fork, customize, or self-host:
